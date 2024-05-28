@@ -20,6 +20,8 @@ Jedná se o rotační vstupní součástka, která při otáčení její osou po
 Jedná se o inteligentní motorový řidič (Motor Driver IC) na bázi CMOS, který je schopný řídit dva DC motory nebo jeden krokový motor, jako v našem případě. Obvod L298N je široce používán v mnoha aplikacích, jako jsou roboti, automatizované systémy, chytré domácnosti, průmyslové aplikace a mnoho dalších. Obvod L298N má několik vlastností, které ho dělají vhodným pro řízení motorů.
 
 # Krokový motor
+<img alt="Korokový motor" src="https://github.com/prokyber/r-duino-led-stepper-motor/blob/main/img/obr%C3%A1zek3.png" style="Height: 40vh;">
+
 Známí tež jako stepper motor je typ elektrického motoru, který se používá k posunu nebo rotaci v malých úsecích, známých jako kroky. Princip fungování krokového motoru je následující: Motor obsahuje několik komutátorů, které jsou přiřazeny k jednotlivým cívkám. Cívkové pásky jsou navrženy tak, že při přiřazení komutátorů k cívkám se vytváří elektromagnetické pole. Elektromagnetické pole způsobí pohyb cívkových pásků. Při pohybu cívkových pásků se motor pohybuje krokovým způsobem, tj. v malých úsecích.
 
 # Zapojení
