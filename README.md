@@ -22,6 +22,8 @@ Jedná se o inteligentní motorový řidič (Motor Driver IC) na bázi CMOS, kte
 # Krokový motor
 Známí tež jako stepper motor je typ elektrického motoru, který se používá k posunu nebo rotaci v malých úsecích, známých jako kroky. Princip fungování krokového motoru je následující: Motor obsahuje několik komutátorů, které jsou přiřazeny k jednotlivým cívkám. Cívkové pásky jsou navrženy tak, že při přiřazení komutátorů k cívkám se vytváří elektromagnetické pole. Elektromagnetické pole způsobí pohyb cívkových pásků. Při pohybu cívkových pásků se motor pohybuje krokovým způsobem, tj. v malých úsecích.
 
+# Zapojení
+
 # Princip zapojení
 Sledujeme výstupy enkodéru a porovnáváme je spolu, na zásadě tohoto porovnání poznáme jakým směrem enkodér otáčíme a pomocí funkce attachinterrupt budeme aktivovat krokový motor pouze pokud nastane změna ve výstupu enkodéru. Jakmile pootočíme s enkodérem program rozpozná jakým směrem otáčíme enkodér a určí směr pohybu. Jeden krok se skládá ze čtyř částí z toho upravuje, ale směr pouze 2 a 4 částí a ty program mění na zásadě směru (podrobnější popis v programu). Tento pohyb odešleme L298N modulu a ten na zásadě tohoto signálu sepne cívky a krokový motor se pohne o jeden jeho krok. Tento postup se bude opakovat vždy když pohneme enkodérem.
 
