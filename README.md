@@ -11,7 +11,7 @@ Cílem tohoto projektu bylo vytvořit jednoduchý způsob na ovládání krokov�
 
 # Rotační enkodér
 
-<img alt="Rotační enkóder" src="https://github.com/prokyber/r-duino-led-stepper-motor/blob/main/img/rotacni_enkoder.jpg" style="Height: 40;">
+<img alt="Rotační enkóder" src="https://github.com/prokyber/r-duino-led-stepper-motor/blob/main/img/rotacni_enkoder.jpg" style="Height: 30;" />
 
 Jedná se o rotační vstupní součástka, která při otáčení její osou poskytuje informaci o této rotaci a také jejím směru. Zároveň tento typ rotačního enkodéru obsahuje i tlačítko, které lze aktivovat stiskem celé osy enkodéru. V kombinaci s Ř-duinem tak lze tento enkodér využít jako ovládací prvek pro všemožná zapojení, například jako ovladač pro pohyb v menu či jako digitální potenciometr pro řízení servomotorů. Velkou výhodou při srovnání s běžnými potenciometry je ten fakt, že u rotačního enkodéru není omezen počet otáček a můžeme tedy osou enkodéru otáčet donekonečna na obě strany. Enkodér má disk s kontaktními pintami rovnoměrně umístěnými od sebe. Když začneme otáčet knoflíkem, disk se také pohybuje a dostává se do kontaktu s výstupními kolíky S1 a S2 jeden po druhém, čímž generuje dvě čtvercové vlny současně. Ty mi můžeme porovnat a zjistit kterým směrem se enkodér otáčí.
 
