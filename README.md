@@ -4,7 +4,7 @@ Cílem tohoto projektu bylo vytvořit jednoduchý způsob na ovládání krokov�
 # Součástky
 - Ř-duino-LED
 - externí zdroj 12V 1,2A (min)
-- krokový modul
+- krokový motor
 - [rotační enkodér](https://e-shop.prokyber.cz/vstupni/rotacni-enkoder/)
 - [modul L298N](https://e-shop.prokyber.cz/periferie-pro-mikrokontrolery/h-mustek/)
 - [vodiče](https://e-shop.prokyber.cz/kabely--vodice/dupont-kabel/)
